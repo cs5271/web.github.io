@@ -1,0 +1,575 @@
+/*index---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+body {
+	background-image: url('../images/bg1.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+div {
+	margin: -10px;
+	padding: 5px;
+}
+
+div.nav {
+	position: absolute;
+	right: 0px;
+	top: 20px;
+	text-align: center;
+	background-color: cadetblue;
+	padding-right: 130px;
+	overflow: hidden;
+	font-size: 35px;
+}
+
+div.nav a {
+	float: left;
+	display: block;
+	color: #ffffff;
+	font-family: "楷体";
+	text-align: center;
+	padding-top: 0px;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-decoration: none;
+}
+
+div.nav a:hover {
+	background-color: #ffffff;
+	color: cadetblue;
+}
+
+p {
+	position: absolute;
+	top: 100px;
+	left: 450px;
+	color: #171d8a;
+	font-size: 75px;
+	font-family: "bradley hand itc";
+	text-shadow: 5px 5px #ffffff;
+	animation: p ease-in 2s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes p {
+	from {
+		opacity: 0;
+		top: 200px;
+	}
+
+	to {
+		opacity: 1;
+		top: 100px;
+	}
+}
+
+p1 {
+	position: absolute;
+	top: 900px;
+	left: 200px;
+	text-align: center;
+	font-size: 100px;
+	color: aliceblue;
+	font-family: "bradley hand itc";
+	text-shadow: 5px 5px #484848;
+	opacity: 0;
+	animation: p1 ease-in 3s;
+	animation-delay: 6s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes p1 {
+	from {
+		opacity: 0;
+		top: 1000px;
+	}
+
+	to {
+		opacity: 1;
+		top: 900px;
+	}
+}
+
+p2 {
+	position: absolute;
+	top: 1200px;
+	left: 500px;
+	text-align: center;
+	font-size: 100px;
+	color: aliceblue;
+	font-family: "bradley hand itc";
+	text-shadow: 5px 5px #484848;
+	opacity: 0;
+	animation: p2 ease-in 3s;
+	animation-delay: 7s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes p2 {
+	from {
+		opacity: 0;
+		top: 1300px;
+	}
+
+	to {
+		opacity: 1;
+		top: 1200px;
+	}
+}
+
+p3 {
+	position: absolute;
+	top: 1150px;
+	left: 1050px;
+	text-align: center;
+	font-size: 50px;
+	color: aliceblue;
+	font-family: "楷体";
+	text-shadow: 3px 3px #636363;
+	opacity: 0;
+	animation: p3 ease-in 3s;
+	animation-delay: 8s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes p3 {
+	from {
+		opacity: 0;
+		right: -300px;
+	}
+
+	to {
+		opacity: 1;
+		right: 20px;
+	}
+}
+
+.home {
+	position: fixed;
+	top: 150px;
+	border: 10px solid;
+	width: 100px;
+	height: 100px;
+	transition: all 1s ease;
+}
+
+.home:hover {
+	transform: translate(100px, 0px);
+	border-radius: 50px;
+	border: 10px solid transparent;
+	box-shadow: 10px 10px 10px grey;
+}
+
+.left {
+	position: fixed;
+	top: 270px;
+	border: 10px solid;
+	width: 100px;
+	height: 100px;
+	transition: all 1s ease;
+}
+
+.left:hover {
+	transform: translate(100px, 0px);
+	border-radius: 50px;
+	border: 10px solid transparent;
+	box-shadow: 10px 10px 10px grey;
+}
+
+.right {
+	position: fixed;
+	top: 390px;
+	border: 10px solid;
+	width: 100px;
+	height: 100px;
+	transition: all 1s ease;
+}
+
+.right:hover {
+	transform: translate(100px, 0px);
+	border-radius: 50px;
+	border: 10px solid transparent;
+	box-shadow: 10px 10px 10px grey;
+}
+
+div.img {
+	position: absolute;
+	top: 180px;
+	left: 620px;
+	opacity: 0;
+	animation: img ease-in 3s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes img {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+div.img1 {
+	position: absolute;
+	top: 650px;
+	left: 180px;
+	z-index: -1;
+}
+
+div.img2 {
+	position: absolute;
+	top: 1400px;
+	left: 200px;
+	animation: img2 6s infinite;
+	animation-delay: 3s;
+}
+
+@keyframes img2 {
+	50% {
+		opacity: 0;
+	}
+}
+
+div.img3 {
+	position: absolute;
+	top: 2100px;
+	left: 1000px;
+}
+
+div.img4 {
+	position: absolute;
+	top: 45px;
+	left: 100px;
+	opacity: 0;
+	z-index: -1;
+	animation: img4 ease-in 2s;
+	animation-delay: 3s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes img4 {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+div.img5 {
+	position: absolute;
+	top: 150px;
+	left: 900px;
+	z-index: -1;
+}
+
+div.img6 {
+	position: absolute;
+	top: 300px;
+	left: 300px;
+	z-index: -1;
+}
+
+div.img7 {
+	position: absolute;
+	top: 1200px;
+	right: 0px;
+	z-index: -1;
+}
+
+div.img8 {
+	position: absolute;
+	top: 1000px;
+	right: 300px;
+	z-index: -1;
+}
+
+div.img9 {
+	position: absolute;
+	top: 1300px;
+	left: 150px;
+	z-index: -1;
+	animation: img9 6s infinite;
+}
+
+@keyframes img9 {
+	50% {
+		opacity: 0;
+	}
+}
+
+div.img0 {
+	position: absolute;
+	left: -80px;
+	bottom: -2000px;
+	z-index: -1;
+}
+
+.footer {
+	margin: 0;
+	padding: 0;
+	margin-top: 20px;
+	padding-right: 20px;
+	background: #222c3a;
+	width: 100%;
+	height: 150px;
+	text-align: center;
+	color: white;
+	position: absolute;
+	bottom: -2140px;
+	left: 0px;
+}
+
+.footer-top {
+	margin: 0;
+	padding: 0;
+	margin-top: 50px;
+}
+
+.footer a {
+	color: #f0f1f1;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 0 10px;
+	vertical-align: middle;
+}
+
+.footer a:hover {
+	color: red;
+	padding: 20px;
+}
+
+
+.footer pf {
+	height: 20px;
+	color: #bfbfbf;
+	margin-top: 30px;
+}
+
+/*intro---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+div.a {
+	position: fixed;
+	left: 250px;
+	width: 400px;
+	height: 500px;
+	border: #5F9EA0 20px groove;
+	border-radius: 50px;
+	background-color: aliceblue;
+}
+
+.a {
+	animation: a ease-in 2s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes a {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+.pic {
+	position: absolute;
+	left: 80px;
+	top: 50px;
+	width: 250px;
+	height: 250px;
+	border: #02446c 10px ridge;
+	border-radius: 20px;
+	opacity: 1.0;
+}
+
+.pic:hover {
+	opacity: 0.4;
+}
+
+.qq {
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+
+}
+
+.qq:hover {
+	opacity: 0.4;
+}
+
+.wechat {
+	position: absolute;
+	left: 150px;
+	bottom: 20px;
+}
+
+.wechat:hover {
+	opacity: 0.4;
+}
+
+.instagram {
+	position: absolute;
+	left: 280px;
+	bottom: 20px;
+}
+
+.instagram:hover {
+	opacity: 0.4;
+}
+
+div.b {
+	position: absolute;
+	right: 50px;
+	width: 700px;
+	height: 1200px;
+	border: #5F9EA0 20px groove;
+	border-radius: 50px;
+	background-color: aliceblue;
+}
+
+ul {
+	list-style-type: sidama;
+	position: absolute;
+	top: 20px;
+	left: 15px;
+	font-size: 30px;
+	font-family: "仿宋";
+	z-index: 2;
+}
+
+.imga {
+	position: absolute;
+	left: 800px;
+	top: 1000px;
+	z-index: 1;
+	opacity: 0.4;
+	animation: imga 6s infinite;
+}
+
+@keyframes imga {
+	50% {
+		opacity: 0;
+	}
+}
+
+.imgb {
+	position: absolute;
+	left: 1100px;
+	top: 300px;
+}
+
+.imgc {
+	position: absolute;
+	left: 800px;
+	top: 1600px;
+}
+
+.imgd {
+	position: absolute;
+	left: 800px;
+	top: 1000px;
+	z-index: 1;
+	opacity: 0.4;
+	animation: imgd 6s infinite;
+}
+
+@keyframes imgd {
+	50% {
+		opacity: 0;
+	}
+}
+
+/*contect-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.dolphin{
+	position: absolute;
+	z-index: -1;
+}
+
+#d1 {
+	left:400px ;
+	top: 800px;
+}
+
+#d2 {
+	left:700px ;
+	top: 200px;
+}
+.codeqq {
+	position: relative;
+	left: 300px;
+	top: 80px;
+	width: 200px;
+	height: 276px;
+	transition: transform .5s;
+}
+
+.codeqq:hover {
+	transform: scale(1.5);
+}
+
+.code {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border: #ffffff 5px solid;
+	border-radius: 5px;
+	transition: transform .5s;
+}
+
+.code:hover {
+	transform: scale(1.5);
+}
+
+#wx {
+	left: 1200px;
+	top: 500px;
+}
+
+#insta {
+	left: 300px;
+	top: 1000px;
+}
+
+p5 {
+	position: absolute;
+	font-size: 50px;
+	font-family: "微软雅黑";
+	color: aliceblue;
+	text-shadow: 3px 3px #636363;
+	font-weight: bold;
+	opacity: 0;
+	animation: p5 ease-in 5s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes p5 {
+	from {
+		opacity: 0;
+		transform: rotate(360deg);
+		font-size: 50px;
+	}
+
+	to {
+		opacity: 1;
+		font-size: 100px;
+	}
+}
+
+#w1 {
+	left: 600px;
+	top: 250px;
+}
+
+#w2 {
+	left: 400px;
+	top: 900px;
+}
+
+#w3 {
+	left: 600px;
+	top: 1600px;
+}
